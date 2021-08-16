@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#drumkit{
+    display: flex;
+}
+
+.drum-sound{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}

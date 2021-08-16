@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio src="/assets/sounds/chime.wav" controls></audio>
+
+    <button id="chime-button">Click me</button>
+
+
+    <div id="drum-container">
+        <div class="drum-sound" data-sound='kick'>kick</div>
+        <div class="drum-sound" data-sound='tom1'>tom1</div>
+        <div class="drum-sound" data-sound='tom2'>tom2</div>
+        <div class="drum-sound" data-sound='tom3'>tom3</div>
+        <div class="drum-sound" data-sound='snare'>snare</div>
+        <div class="drum-sound" data-sound='crash'>crash</div>
+        <div class="drum-sound" data-sound='ride'>ride</div>
+        <div class="drum-sound" data-sound='closed-hat'>closed-hat</div>
+    </div>
+
+    <script src="/howler.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
